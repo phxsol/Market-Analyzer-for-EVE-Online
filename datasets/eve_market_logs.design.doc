@@ -1,0 +1,22 @@
+{
+  "_id": "_design/markets",
+  "_rev": "3-99f20ffe915df773dc59936f3df929a6",
+  "views": {
+    "regions": {
+      "map": "function (doc) {\n  if(doc.region_id) emit(doc._id, 1);\n}"
+    },
+    "products": {
+      "map": "function (doc) {\n  if(doc.data_type == 'Products' && !doc.stamp) emit(doc._id, 1);\n}"
+    },
+    "supply_orders": {
+      "map": "function (doc) {\n  if(doc.order_id && !doc.is_buy_order) emit(doc._id, 1);\n}"
+    },
+    "demand_orders": {
+      "map": "function (doc) {\n  if(doc.order_id && doc.is_buy_order) emit(doc._id, 1);\n}"
+    },
+    "orders": {
+      "map": "function (doc) {\n  if(doc.order_id) emit(doc._id, 1);\n}"
+    }
+  },
+  "language": "javascript"
+}

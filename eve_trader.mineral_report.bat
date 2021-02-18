@@ -1,0 +1,2 @@
+@ECHO OFF
+c:\phox.solutions\products\eve_trader\eve_trader.analyze_product 34 & c:\phox.solutions\products\eve_trader\eve_trader.analyze_product 35 & c:\phox.solutions\products\eve_trader\eve_trader.analyze_product 36 & c:\phox.solutions\products\eve_trader\eve_trader.analyze_product 37 & c:\phox.solutions\products\eve_trader\eve_trader.analyze_product 38 & c:\phox.solutions\products\eve_trader\eve_trader.analyze_product 39 & c:\phox.solutions\products\eve_trader\eve_trader.analyze_product 40
