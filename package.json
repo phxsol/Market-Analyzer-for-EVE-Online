@@ -1,16 +1,29 @@
 {
-  "name": "eve_trader",
+  "name": "Market-Analyzer-for-EVE-Online",
   "version": "1.0.0",
   "description": "Fed by EVE MarkelLog data files (.csv)... piped into a local couchDB",
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Phox.Solutions",
-  "license": "MIT",
   "dependencies": {
     "agentkeepalive": "^4.0.2",
     "nano": "^8.1.0",
     "yaml": "^1.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phxsol/Market-Analyzer-for-EVE-Online.git"
+  },
+  "keywords": [
+    "THREE.js",
+    "animation",
+    "canvas"
+  ],
+  "author": "Joshua Hopkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phxsol/Market-Analyzer-for-EVE-Online/issues"
+  },
+  "homepage": "https://github.com/phxsol/Market-Analyzer-for-EVE-Online#readme"
 }
